@@ -10,14 +10,18 @@
     
 </head>
 <body>
-    <form class="login-form" action="#" method="post" aria-label="Formulaire de connexion">
-        <label for="identifiant" class="sr-only">Identifiant</label>
-        <input id="identifiant" name="identifiant" type="text" placeholder="Identifiant" required>
 
-        <label for="mdp" class="sr-only">Mot de passe</label>
-        <input id="mdp" name="mdp" type="password" placeholder="Mot de passe" required>
+    <h1>Connexion</h1>
+
+    <form action="/login" method="POST">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
 
         <button type="submit">Se connecter</button>
     </form>
+
 </body>
 </html>
