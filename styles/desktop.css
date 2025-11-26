@@ -37,3 +37,10 @@
     justify-content: flex-end;
 }
 
+.cours-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
