@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -10,5 +10,33 @@
 </head>
 <body>
     
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)"> 
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)"> 
+    <title>Site d'éducation en ligne</title>
+    
+</head>
+<body>
+
+    <h1>Connexion</h1>
+
+    <form action="/login" method="POST">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Se connecter</button>
+    </form>
+
 </body>
 </html>
