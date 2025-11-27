@@ -256,7 +256,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 10;
+    z-index: 0;
     box-shadow: 0 0 0 3px #4CAF50;
 }
 
@@ -296,32 +296,36 @@
 /* Frise compacte pour le panneau latéral */
 .compact-timeline {
     position: relative;
-    padding: 0;
+    padding: 0 0 0 16px;
     max-width: 100%;
 }
 
 .compact-timeline::before {
-    left: 0;
+    left: 3px;
     transform: none;
     width: 2px;
+    top: 0;
+    bottom: 0;
 }
 
 .compact-timeline .timeline-item {
     flex-direction: row !important;
     margin-bottom: 16px;
     align-items: flex-start;
+    position: relative;
 }
 
 .compact-timeline .timeline-marker {
     width: 12px;
     height: 12px;
-    left: 0;
-    transform: none;
+    left: -12px;
+    top: 6px;
     box-shadow: none;
     border: 2px solid #ffffff;
-    margin-right: 12px;
-    margin-top: 6px;
+    margin-right: 0;
+    margin-top: 0;
     flex-shrink: 0;
+    position: absolute;
 }
 
 .compact-timeline .timeline-content {
@@ -332,6 +336,7 @@
     box-shadow: none;
     background: transparent;
     border-radius: 0;
+    padding-left: 8px;
 }
 
 .compact-timeline .timeline-content h3 {
@@ -343,8 +348,34 @@
     font-size: 0.8rem;
     margin: 0 0 2px 0;
 }
-
+ 
 .compact-timeline .timeline-description {
     font-size: 0.85rem;
     margin: 0;
+}
+
+/* Bouton ajouter priorité */
+.add-priority-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    background: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-priority-btn:hover {
+    background: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.add-priority-btn:active {
+    background: #3d8b40;
+    transform: translateY(0);
 }
