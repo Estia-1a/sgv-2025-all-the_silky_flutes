@@ -37,10 +37,65 @@
     justify-content: flex-end;
 }
 
+/* Sidebar (barre latérale) pour la liste de cours */
+.page-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.sidebar {
+    width: 260px;
+    max-width: 30%;
+    background: #f7f7f7;
+    padding: 16px;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e6e6;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.cours-it {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cours-it li {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.content {
+    flex: 1 1 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .cours-list {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     list-style: none;
     gap: 20px;
+}
+
+.container {
+    background-color: #baddff; /* couleur du bandeau */
+    padding: 10px 20px;
+    display: flex;
+    align-items: left;
 }
