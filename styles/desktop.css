@@ -1,9 +1,12 @@
 /* Bandeau en haut */
 .menu-bandeau {
-    background-color: #333; /* couleur du bandeau */
-    padding: 10px 20px;
+    background: linear-gradient(135deg, #6b7280 0%, #5a6370 100%);
+    padding: 16px 24px;
     display: flex;
     align-items: center;
+    margin: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Liste horizontale */
@@ -20,12 +23,22 @@
     color: white; /* couleur du texte */
     text-decoration: none; /* supprime le soulignement */
     font-weight: bold;
-    
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
 }
 
 /* Effet au survol */
 .menu-bandeau a:hover {
-    text-decoration: underline;
+    color: #e8f5e9;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .menu {
