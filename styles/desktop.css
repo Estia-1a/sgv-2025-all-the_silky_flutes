@@ -308,10 +308,7 @@
     border-left: 4px solid #4CAF50;
 }
 
-.timeline-item:nth-child(even) .timeline-content {
-    border-left: none;
-    border-right: 4px solid #4CAF50;
-}
+
 
 .timeline-content h3 {
     margin-top: 0;
