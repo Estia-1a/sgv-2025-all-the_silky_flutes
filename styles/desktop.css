@@ -1,3 +1,8 @@
+/* Police générale */
+* {
+    font-family: Arial, sans-serif;
+}
+
 /* Bandeau en haut */
 .menu-bandeau {
     background: linear-gradient(135deg, #6b7280 0%, #5a6370 100%);
@@ -7,6 +12,7 @@
     margin: 12px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
 }
 
 /* Liste horizontale */
