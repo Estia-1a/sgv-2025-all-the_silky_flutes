@@ -470,3 +470,164 @@
     cursor: default;
     background: transparent;
 }
+
+/* Contenu du cours */
+.course-content {
+    padding: 20px;
+}
+
+.course-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.course-hero h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+}
+
+.course-meta {
+    margin: 0;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.course-section {
+    margin-bottom: 32px;
+}
+
+.course-section h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+}
+
+.course-section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Vidéo */
+.video-container {
+    background: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Listes */
+.course-list {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+}
+
+.course-list li {
+    background: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-left: 4px solid #667eea;
+    border-radius: 4px;
+    color: #555;
+}
+
+/* Chapitres */
+.chapters {
+    display: grid;
+    gap: 16px;
+}
+
+.chapter {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.chapter:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.chapter h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.chapter p {
+    margin: 8px 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.course-link {
+    display: inline-block;
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.course-link:hover {
+    color: #764ba2;
+    transform: translateX(4px);
+}
+
+/* Ressources */
+.course-resources {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+}
+
+.course-resources li {
+    background: #f0f4ff;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border-left: 4px solid #667eea;
+}
+
+.course-resources a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.course-resources a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* Conseils */
+.course-tips {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+}
+
+.course-tips li {
+    padding-left: 28px;
+    margin-bottom: 12px;
+    position: relative;
+    color: #555;
+}
+
+.course-tips li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
