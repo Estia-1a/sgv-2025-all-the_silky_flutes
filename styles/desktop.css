@@ -81,6 +81,13 @@
     font-size: 0.95rem;
 }
 
+.cours-it li:hover {
+    background: #e8f4f8;
+    border-color: #b8d4e8;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .content {
     flex: 1 1 auto;
     padding: 20px;
@@ -127,6 +134,17 @@
     overflow: auto;
 }
 
-.details-title {
-    margin-top: 0;
+.cours-item {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.cours-item:hover {
+    background: #e8f4f8;
+    border-color: #b8d4e8;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
