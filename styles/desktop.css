@@ -3,6 +3,16 @@
     font-family: Arial, sans-serif;
 }
 
+li a {
+  color: inherit;      
+  text-decoration: none;
+}
+
+button a {
+  color: inherit;      
+  text-decoration: none;
+}
+
 /* Bandeau en haut */
 .menu-bandeau {
     background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
@@ -351,6 +361,10 @@
     padding: 10px 20px;
     display: flex;
     border-radius: 6px;
+}
+
+.chapter a {    
+  text-decoration: none;
 }
 
 /* Grille de contenu */
