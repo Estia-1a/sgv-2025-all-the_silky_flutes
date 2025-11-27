@@ -30,6 +30,7 @@
 
 .menu {
     justify-content: flex-start;
+    flex: 1;
 }
 
 .déconnexion {
