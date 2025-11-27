@@ -46,7 +46,8 @@
 
 .sidebar {
     width: 260px;
-    max-width: 30%;
+    max-width: 40%;
+    min-width: 300px;
     background: #f7f7f7;
     padding: 16px;
     box-sizing: border-box;
@@ -59,6 +60,7 @@
 
 .sidebar h2 {
     margin-top: 0;
+    min-width: 300px;
     font-size: 1.1rem;
 }
 
@@ -109,7 +111,7 @@
 
 .cours-column {
     width: 65%;
-    min-width: 320px;
+    min-width: 500px;
     padding: 20px;
     box-sizing: border-box;
 }
