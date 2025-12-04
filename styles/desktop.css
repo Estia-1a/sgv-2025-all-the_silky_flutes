@@ -345,7 +345,11 @@ button a {
 }
 
 .content {
+    flex: 1 1 auto;
+    min-width: 0;
+    width: 100%;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .cours-list {
@@ -386,6 +390,7 @@ button a {
     padding: 20px;
     border-radius: 4px;
     overflow: auto;
+    max-width: 300px;
 }
 
 .coursem {
