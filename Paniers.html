@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)">
+  <link rel="icon" type="image/png" href="./media/pictures/icon.png">
+  <title>Paniers</title>
+</head>
+
+<body>
+  <nav class="menu-bandeau" aria-label="Navigation principale">
+    <ul class="menu">
+      <li><a href="index.html">Consulter ses cours</a></li>
+      <li><a href="index.html">Suivre sa progression</a></li>
+      <li><a href="index.html">Consulter mes discussions</a></li>
+      <li><a href="Paniers.html">Mes paniers</a></li>
+    </ul>
+
+    <ul class="menu-right">
+      <li><a href="index.html">Déconnexion</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-layout">
+    <aside class="sidebar" aria-label="Filtres paniers">
+      <h2>Filtres</h2>
+      <input type="text" class="search-input" placeholder="Rechercher un panier..." aria-label="Rechercher un panier">
+      <ul class="cours">
+        <li><a href="#" data-status="tous">Tous les articles</a></li>
+        <li><a href="#" data-status="en-cours">En cours</a></li>
+        <li><a href="#" data-status="abandonnes">Abandonnés</a></li>
+        <li><a href="#" data-status="converties">Achetés</a></li>
+      </ul>
+    </aside>
+
+    <main class="content" aria-live="polite">
+      <div class="container">
+        <h1>Paniers</h1>
+      </div>
+
+      <section class="course-hero">
+        <h2>Abonnement</h2>
+        <p class="course-meta">Total paniers: <strong>4</strong> | En cours: <strong>3</strong>
+          </strong> | Achetés: <strong>1</strong>
+        </p>
+      </section>
+
+      <section class="course-section">
+        <h3>🛒 Paniers en cours</h3>
+        <div class="chapters">
+          <article class="chapter" aria-labelledby="cart-001">
+            <input type="checkbox" id="select-001" class="item-checkbox" aria-label="Sélectionner ce panier">
+            <label for="select-001"></label>
+            <div class="chapter-content">
+              <h4 id="cart-001">🎓 Abonnement 1 — Basique Étudiant</h4>
+              <p><strong>Articles:</strong> 1 | <strong>Total:</strong> 💸 9,99 € / mois</p>
+              <p>Pour les étudiants qui veulent juste un site simple pour CV, portfolio ou projet.</p>
+              <p>Comprend :</p>
+              <ul>
+                <li>1 page (Accueil + CV)</li>
+                <li>Modèle design responsive</li>
+                <li>Nom de domaine .fr ou .com</li>
+                <li>Hébergement inclus</li>
+                <li>Sécurité HTTPS</li>
+                <li>Support par email (72 h)</li>
+              </ul>
+              <p>Idéal pour : un étudiant qui veut un site propre et rapide à mettre en ligne.</p>
+              <p class="meta">Créé le 03/12/2025</p>
+              <p><a href="#" class="link">Voir détails →</a></p>
+            </div>
+          </article>
+
+          <article class="chapter" aria-labelledby="cart-004">
+            <input type="checkbox" id="select-004" class="item-checkbox" aria-label="Sélectionner ce panier">
+            <label for="select-004"></label>
+            <div class="chapter-content">
+              <h4 id="cart-004">🚀 Abonnement 2 — Étudiant Pro</h4>
+              <p><strong>Articles:</strong> 1 | <strong>Total:</strong> 💸 19,99 € / mois</p>
+              <p>Pour ceux qui veulent un vrai site professionnel (pour alternance, stages, projets).</p>
+              <p>Comprend :</p>
+              <ul>
+                <li>Jusqu'à 5 pages (Accueil, Projets, À propos, Contact…)</li>
+                <li>Design personnalisé</li>
+                <li>Formulaire de contact pro</li>
+                <li>Optimisation SEO basique</li>
+                <li>Mise à jour 1 fois/mois</li>
+                <li>Support sous 48 h</li>
+              </ul>
+              <p>Idéal pour : les étudiants en ingénierie, business, design, tech, etc.</p>
+              <p class="meta">Créé le 02/12/2025</p>
+              <p><a href="#" class="link">Voir détails →</a></p>
+            </div>
+          </article>
+
+          <article class="chapter" aria-labelledby="cart-005">
+            <input type="checkbox" id="select-005" class="item-checkbox" aria-label="Sélectionner ce panier">
+            <label for="select-005"></label>
+            <div class="chapter-content">
+              <h4 id="cart-005">🏆 Abonnement 3 — Premium Portfolio+</h4>
+              <p><strong>Articles:</strong> 1 | <strong>Total:</strong> 💸 39,99 € / mois</p>
+              <p>Pour les étudiants qui veulent une vraie présence professionnelle en ligne.</p>
+              <p>Comprend :</p>
+              <ul>
+                <li>Site complet jusqu'à 10 pages</li>
+                <li>Portfolio interactif (images, PDF, vidéos, projets)</li>
+                <li>Optimisation SEO avancée</li>
+                <li>Création d'un logo simple</li>
+                <li>Révisions illimitées</li>
+                <li>Support prioritaire (24 h)</li>
+                <li>Mise à jour du contenu 2 fois/mois</li>
+                <li>Intégration LinkedIn / GitHub / Notion</li>
+              </ul>
+              <p>Idéal pour : ceux qui postulent dans l'ingénierie, l'informatique, la communication, le design ou
+                l'audiovisuel.</p>
+              <p class="meta">Créé le 02/12/2025</p>
+              <p><a href="#" class="link">Voir détails →</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="course-section">
+        <div class="chapters">
+          <article class="chapter" aria-labelledby="cart-002">
+            <input type="checkbox" id="select-002" class="item-checkbox" aria-label="Sélectionner ce panier">
+            <label for="select-002"></label>
+            <div class="chapter-content">
+              <h4 id="cart-002">🏆 Abonnement 3 — Premium Portfolio+</h4>
+              <p><strong>Articles:</strong> 1 | <strong>Total:</strong> 💸 39,99 € / mois</p>
+              <p>Pour les étudiants qui veulent une vraie présence professionnelle en ligne.</p>
+              <p>Comprend :</p>
+              <ul>
+                <li>Site complet jusqu'à 10 pages</li>
+                <li>Portfolio interactif (images, PDF, vidéos, projets)</li>
+                <li>Optimisation SEO avancée</li>
+                <li>Création d'un logo simple</li>
+                <li>Révisions illimitées</li>
+                <li>Support prioritaire (24 h)</li>
+                <li>Mise à jour du contenu 2 fois/mois</li>
+                <li>Intégration LinkedIn / GitHub / Notion</li>
+              </ul>
+              <p>Idéal pour : ceux qui postulent dans l'ingénierie, l'informatique, la communication, le design ou
+                l'audiovisuel.</p>
+              <p class="meta">Abandonné le 01/12/2025</p>
+              <p><a href="#" class="link">Récupérer →</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="course-section">
+        <h3>✅ Achetés</h3>
+        <div class="chapters">
+          <article class="chapter" aria-labelledby="cart-003">
+            <label for="select-003"></label>
+            <div class="chapter-content">
+              <h4 id="cart-003">🎓 Abonnement 1 — Basique Étudiant</h4>
+              <p><strong>Articles:</strong> 1 | <strong>Total:</strong> 💸 9,99 € / mois</p>
+              <p>Pour les étudiants qui veulent juste un site simple pour CV, portfolio ou projet.</p>
+              <p>Comprend :</p>
+              <ul>
+                <li>1 page (Accueil + CV)</li>
+                <li>Modèle design responsive</li>
+                <li>Nom de domaine .fr ou .com</li>
+                <li>Hébergement inclus</li>
+                <li>Sécurité HTTPS</li>
+                <li>Support par email (72 h)</li>
+              </ul>
+              <p class="meta">Acheté le 25/11/2025</p>
+              <p><a href="#" class="link">Voir commande →</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+</html>
